@@ -39,20 +39,31 @@ function hello(){
 // data types in java scripts
 
 
-x=10.44
-document.write(typeof(x)+"<br>")
+// x=10.44
+// document.write(typeof(x)+"<br>")
 
-s="java scripts"
-document.write(typeof(s)+"<br>")
+// s="java scripts"
+// document.write(typeof(s)+"<br>")
 
-b=true
-document.write(typeof(b)+"<br>")
+// b=true
+// document.write(typeof(b)+"<br>")
 
-var z 
-document.write(typeof(z)+"<br>")
+// var z 
+// document.write(typeof(z)+"<br>")
 
-i=[1,2,3,"hello"]
-document.write(typeof(i)+"<br>")
+// i=[1,2,3,"hello"]
+// document.write(typeof(i)+"<br>")
 
-d={"name":"shahis","age":"kk"}
-document.write(typeof(d)+"<br>")
+// d={"name":"shahis","age":"kk"}
+// document.write(typeof(d)+g"<br>")
+
+
+// opertions in java script
+
+// arithematic operation
+// assignment 
+
+x=10
+y=3
+
+alert(x**3)
