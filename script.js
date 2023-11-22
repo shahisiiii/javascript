@@ -82,12 +82,24 @@
 
 
 
-    x=7
-    y=5
+let x=9098
+    y=5899
+    z=8765
 
 if (x>=y){
-    console.log("biger is"+x)
+    if (x>=z){
+        console.log(`${x} is large`);
+    }
+    
 }
+else if (y>x){
+    if (y>z){
+        console.log(`${y} is large`);
+    }
+}
+
 else{
-    console.log("biger is"+y)
+    console.log(`${z} is large`);
 }
+
+
