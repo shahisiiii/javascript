@@ -63,7 +63,8 @@ function hello(){
 // arithematic operation
 // assignment 
 
-x=10
-y=3
+// x=10
+// y=3
 
-alert(x**3)
+// alert(x**3)
+
