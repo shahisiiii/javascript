@@ -6,6 +6,7 @@
 function hello(){
     document.write("welcome to java script")
 }
+console.log("welcome")
 
 // var x=3
 
