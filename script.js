@@ -3,10 +3,10 @@
 // document.write("from write method")
 // document.getElementById("id1").innerHTML="javascript2"
 
-function hello(){
-    document.write("welcome to java script")
-}
-console.log("welcome")
+// function hello(){
+//     document.write("welcome to java script")
+// }
+// console.log("welcome")
 
 // var x=3
 
@@ -69,3 +69,25 @@ console.log("welcome")
 
 // alert(x**3)
 
+
+// if (contidition){
+//     statements
+// }
+
+// else if(condition){
+//     statements
+// }
+// else{
+//     else_statements
+
+
+
+    x=7
+    y=5
+
+if (x>=y){
+    console.log("biger is"+x)
+}
+else{
+    console.log("biger is"+y)
+}
