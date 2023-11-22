@@ -82,18 +82,33 @@
 
 
 
-let x=3
-    y=5
-    z=8
+// let x=3
+//     y=5
+//     z=8
 
-    if (x>y && x>z){
-        console.log(`${x} is large`);
-    }
+//     if (x>y && x>z){
+//         console.log(`${x} is large`);
+//     }
 
-    else if (y>z){
-        console.log(`${y} is large`);
-    }
+//     else if (y>z){
+//         console.log(`${y} is large`);
+//     }
 
-    else {
-        console.log(`${z} is large`);
-    }
+//     else {
+//         console.log(`${z} is large`);
+//     }
+
+
+switch (condition){
+    case vlue1:
+        statement1
+        break;
+
+    case vlue1:
+        statement1
+        break;
+
+    default:
+        default_statement
+
+}
