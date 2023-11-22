@@ -82,24 +82,18 @@
 
 
 
-let x=9098
-    y=5899
-    z=8765
+let x=3
+    y=5
+    z=8
 
-if (x>=y){
-    if (x>=z){
+    if (x>y && x>z){
         console.log(`${x} is large`);
     }
-    
-}
-else if (y>x){
-    if (y>z){
+
+    else if (y>z){
         console.log(`${y} is large`);
     }
-}
 
-else{
-    console.log(`${z} is large`);
-}
-
-
+    else {
+        console.log(`${z} is large`);
+    }
