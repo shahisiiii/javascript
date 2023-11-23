@@ -99,16 +99,16 @@
 //     }
 
 
-switch (condition){
-    case vlue1:
-        statement1
-        break;
+// switch (condition){
+//     case vlue1:
+//         statement1
+//         break;
 
-    case vlue1:
-        statement1
-        break;
+//     case vlue1:
+//         statement1
+//         break;
 
-    default:
-        default_statement
+//     default:
+//         default_statement
 
-}
+// }
