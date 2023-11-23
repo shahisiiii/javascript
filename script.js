@@ -141,9 +141,23 @@
 //     console.log(i)
 // }
 
-num=[1,3,6,9,8,6]
-for(i of num){
-    if (i%2==0){
-        console.log(i)
-    }
+// num=[1,3,6,9,8,6]
+// for(i of num){
+//     if (i%2==0){
+//         console.log(i)
+//     }
+// }
+
+
+// initialization;
+// while (condition){
+//     body_of_loop
+//     increment/decrement
+// }
+    
+
+i=1;
+while (i<=10){
+    console.log(i);
+    i++;
 }
