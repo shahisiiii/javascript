@@ -156,8 +156,16 @@
 // }
     
 
-i=1;
-while (i<=10){
-    console.log(i);
-    i++;
+// i=1;
+// while (i<=10){
+//     // ;
+//     i++;
+// }
+
+x=6
+f=1
+for (let i=1;i<=x;i=i++){
+    f=f*i
+    
 }
+console.log(f)
