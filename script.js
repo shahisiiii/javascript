@@ -113,14 +113,37 @@
 
 // }
 
-x=1
-switch (x){
-    case 1:
-        console.log("value is 1")
-        break;
-    case 2:
-        console.log("value is 2")
-        break;
-    default:
-        console.log("some other number")
+// x=1
+// switch (x){
+//     case 1:
+//         console.log("value is 1")
+//         break;
+//     case 2:
+//         console.log("value is 2")
+//         break;
+//     default:
+//         console.log("some other number")
+// }
+
+
+// for/
+
+// for(initialize;condition;increament/decrement){
+//     statemets
+
+// }
+
+// for(i=5;i<=25;i++){
+//     
+// }
+// num=[1,4,5,8]
+// for( i in num){
+//     console.log(i)
+// }
+
+num=[1,3,6,9,8,6]
+for(i of num){
+    if (i%2==0){
+        console.log(i)
+    }
 }
