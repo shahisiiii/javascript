@@ -177,19 +177,38 @@
 // while(i<=10)
 
 
-let n=7
-prime=true
-for(i=2;i<n;i++){
-    if (n%i==0){
+// let n=7
+// prime=true
+// for(i=2;i<n;i++){
+//     if (n%i==0){
 
-        prime=false
-        break
-    }
+//         prime=false
+//         break
+//     }
+// }
+// if(prime){
+//     console.log("is prime")
+// }
+// else{
+//     console.log('not prime')
+
+// }
+
+
+n=parseInt(prompt("enter the number:"))  //123
+temp=n
+rev=0
+
+while(n!=0){
+    rem=n%10  //1  //2  //3
+    rev=(rev*10)+rem
+    n=parseInt(n/10)
 }
-if(prime){
-    console.log("is prime")
+document.write(rev)
+if(temp==rev){
+    document.write("palindrome")
 }
+
 else{
-    console.log('not prime')
-
+    document.write("not a palindrome")
 }
