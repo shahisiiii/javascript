@@ -169,9 +169,27 @@
 // }
 // console.log(f)
 
-let i=1
-do{
-    console.log(i)
-    i++
+// let i=1
+// do{
+//     
+//     i++
+// }
+// while(i<=10)
+
+
+let n=7
+prime=true
+for(i=2;i<n;i++){
+    if (n%i==0){
+
+        prime=false
+        break
+    }
 }
-while(i<=10)
+if(prime){
+    console.log("is prime")
+}
+else{
+    console.log('not prime')
+
+}
