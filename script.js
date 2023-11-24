@@ -162,10 +162,9 @@
 //     i++;
 // }
 
-x=6
-f=1
-for (let i=1;i<=x;i=i++){
-    f=f*i
-    
-}
-console.log(f)
+// x=6
+// f=1
+// for (let i=1;i<=x;i=i++){
+//     f=f*i
+// }
+// console.log(f)
