@@ -262,5 +262,15 @@
 // console.log(obj(2,3))
 
 
-let obj=(x)=>x*x*x
-console.log(obj(2))
+// let obj=(x)=>x**3
+// console.log(obj(2))
+
+// MaP FILTER REDUCE
+
+// arry=[1,2,3,4,5,6]
+// x=arry.map(i=>i**2)
+// console.log(x)
+
+arry=[1,2,3,4,5,6]
+x=arry.reduce((i,j)=>i+j)
+console.log(x)
