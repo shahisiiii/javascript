@@ -258,5 +258,9 @@
 // console.log(obj)
 
 
-let obj=(x,y)=>x+y
-console.log(obj(2,3))
+// let obj=(x,y)=>x+y
+// console.log(obj(2,3))
+
+
+let obj=(x)=>x*x*x
+console.log(obj(2))
