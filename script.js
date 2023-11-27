@@ -212,3 +212,51 @@
 // else{
 //     document.write("not a palindrome")
 // }\
+
+// obj={
+//     name:"shahis",
+//     place:"tanur",
+// }
+// console.log(obj["name","place"])
+
+// for(let i of obj){
+//     console.log(obj[i])
+// }
+
+// s="shahis"
+
+// console.log(s.startsWith("sh"));
+// console.log(s.endsWith("sh"));
+// console.log(s.slice(0,3));
+// console.log(s.split(""));
+
+// s="shahis"
+// // console.log(s.split(""));
+// count=0
+// for(let i in s){
+//     count=
+    
+// }
+// console.log(count)
+
+// s="hello hello hi hi welcome"
+// array=s.split(" ")
+
+// obj={}
+
+// for(let i of array){
+//     if(i in obj){
+//         obj[i]+=1;
+
+//     }
+//     else{
+//         obj[i]=1;
+//     }
+
+// }
+
+// console.log(obj)
+
+
+let obj=(x,y)=>x+y
+console.log(obj(2,3))
