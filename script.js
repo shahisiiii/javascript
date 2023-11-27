@@ -195,20 +195,20 @@
 // }
 
 
-n=parseInt(prompt("enter the number:"))  //123
-temp=n
-rev=0
+// n=parseInt(prompt("enter the number:"))  //123
+// temp=n
+// rev=0
 
-while(n!=0){
-    rem=n%10  //1  //2  //3
-    rev=(rev*10)+rem
-    n=parseInt(n/10)
-}
-document.write(rev)
-if(temp==rev){
-    document.write("palindrome")
-}
+// while(n!=0){
+//     rem=n%10  //1  //2  //3
+//     rev=(rev*10)+rem
+//     n=parseInt(n/10)
+// }
+// document.write(rev)
+// if(temp==rev){
+//     document.write("palindrome")
+// }
 
-else{
-    document.write("not a palindrome")
-}
+// else{
+//     document.write("not a palindrome")
+// }\
