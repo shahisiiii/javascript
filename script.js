@@ -274,3 +274,15 @@
 // arry=[1,2,3,4,5,6]
 // x=arry.reduce((i,j)=>i+j)
 // console.log(x)
+
+
+function validate(){
+    username=document.getElementById("uname").value 
+    pattern=/^[a-z].$/
+    if(pattern.test(username)){
+        lert("valid username")
+    }
+    else{
+        alert("invalid username")
+    }
+}
