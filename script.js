@@ -278,11 +278,11 @@
 
 function validate(){
     username=document.getElementById("uname").value 
-    pattern=/^[a-z].$/
+    pattern=/^[6-9][0-9]/
     if(pattern.test(username)){
-        lert("valid username")
+        alert("valid username")
     }
     else{
-        alert("invalid username")
+        alert("xxxxxxxxxxxx")
     }
 }
