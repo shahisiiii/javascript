@@ -289,10 +289,15 @@
 
 function validate(){
     uname=document.getElementById("uname").value 
-    psw=document.getElementById("psw"),value
+    psw=document.getElementById("psw").value
     if((uname.trim()=="")||(psw.trim()=="")){
         alert("No blank values allowed")
         return false
+    }
+    else if(psw.length>5){
+        alert("password too long")
+        return flase
+
     }
     else{
         return true
