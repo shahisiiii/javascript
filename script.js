@@ -276,13 +276,25 @@
 // console.log(x)
 
 
+// function validate(){
+//     username=document.getElementById("uname").value 
+//     pattern=/^(\+91[\-\s])?(91[\s])[6-9][0-9]{9}$/
+//     if(pattern.test(username)){
+//         alert("valid phnone number")
+//     }
+//     else{
+//         alert("invlid mobile number")
+//     }
+// }
+
 function validate(){
-    username=document.getElementById("uname").value 
-    pattern=/^(\+91[\-\s])?(91[\s])[6-9][0-9]{9}$/
-    if(pattern.test(username)){
-        alert("valid phnone number")
+    uname=document.getElementById("uname").value 
+    psw=document.getElementById("psw"),value
+    if((uname.trim()=="")||(psw.trim()=="")){
+        alert("No blank values allowed")
+        return false
     }
     else{
-        alert("invlid mobile number")
+        return true
     }
 }
