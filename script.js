@@ -278,11 +278,11 @@
 
 function validate(){
     username=document.getElementById("uname").value 
-    pattern=/^[6-9][0-9]/
+    pattern=/^(\+91[\-\s])?(91[\s])[6-9][0-9]{9}$/
     if(pattern.test(username)){
-        alert("valid username")
+        alert("valid phnone number")
     }
     else{
-        alert("xxxxxxxxxxxx")
+        alert("invlid mobile number")
     }
 }
