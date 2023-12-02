@@ -287,19 +287,38 @@
 //     }
 // }
 
-function validate(){
-    uname=document.getElementById("uname").value 
-    psw=document.getElementById("psw").value
-    if((uname.trim()=="")||(psw.trim()=="")){
-        alert("No blank values allowed")
-        return false
-    }
-    else if(psw.length>5){
-        alert("password too long")
-        return flase
+// function validate(){
+//     uname=document.getElementById("uname").value 
+//     psw=document.getElementById("psw").value
+//     if((uname.trim()=="")||(psw.trim()=="")){
+//         alert("No blank values allowed")
+//         return false
+//     }
+//     else if(psw.length>5){
+//         alert("password too long")
+//         return flase
 
-    }
-    else{
-        return true
-    }
+//     }
+//     else{
+//         return true
+//     }
+// }
+
+
+// exception handling(error handling)   ===>  try , catch , finally , throw
+
+
+try{
+    // document.write(a)
+    throw new error("Userdefined error")
 }
+catch (e){
+    // document.write("An error occured ",e.message,"<br>")
+    document.write(e)
+}
+finally{
+    document.write("finally block")
+ }
+
+
+
