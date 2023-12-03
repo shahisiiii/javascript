@@ -355,8 +355,8 @@
 // Array.from(x).map(a=>a.style.color="red")
 
 function addData(){
-    x=document.getElementById("id1").value
-    y=document.getElementById("id2").value
+    x=document.querySelector("#id1").value    // queryselector is normaly used for js
+    y=document.querySelector("#id2").value
     z=Number(x)+Number(y)
     document.write(z)
 }
