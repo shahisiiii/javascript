@@ -321,24 +321,35 @@
 //  }
 
 
-class Parent{
-    setValue(name,age){
-        this.name=name
-        this.age=age
-    }
-    getValue(){
-        console.log(this.name,this.age)
-    }
-}
-class Child extends Parent{
-    parentmethod(){
-        console.log("from parent method")
-    }
+// class Parent{
+//     setValue(name,age){
+//         this.name=name
+//         this.age=age
+//     }
+//     getValue(){
+//         console.log(this.name,this.age)
+//     }
+// }
+// class Child extends Parent{
+//     parentmethod(){
+//         console.log("from parent method")
+//     }
+// }
+
+// // var obj=new Parent()
+// // obj.setValue("abc",12)
+// // obj.getValue()
+
+// var c1= new Child()
+// c1.parentmethod()
+
+
+
+// DOM= document object method
+function setdata(){
+    x=document.getElementById("id1").value
+    console.log(x);
 }
 
-// var obj=new Parent()
-// obj.setValue("abc",12)
-// obj.getValue()
-
-var c1= new Child()
-c1.parentmethod()
+x=document.getElementsByClassName("c1")
+Array.from(x).map(a=>a.style.color="red")
