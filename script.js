@@ -346,10 +346,17 @@
 
 
 // DOM= document object method
-function setdata(){
-    x=document.getElementById("id1").value
-    console.log(x);
-}
+// function setdata(){
+//     x=document.getElementById("id1").value
+//     console.log(x);
+// }
 
-x=document.getElementsByClassName("c1")
-Array.from(x).map(a=>a.style.color="red")
+// x=document.getElementsByClassName("c1")
+// Array.from(x).map(a=>a.style.color="red")
+
+function addData(){
+    x=document.getElementById("id1").value
+    y=document.getElementById("id2").value
+    z=Number(x)+Number(y)
+    document.write(z)
+}
