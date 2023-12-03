@@ -308,17 +308,37 @@
 // exception handling(error handling)   ===>  try , catch , finally , throw
 
 
-try{
-    // document.write(a)
-    throw new error("Userdefined error")
+// try{
+//     // document.write(a)
+//     throw new error("Userdefined error")
+// }
+// catch (e){
+//     // document.write("An error occured ",e.message,"<br>")
+//     document.write(e)
+// }
+// finally{
+//     document.write("finally block")
+//  }
+
+
+class Parent{
+    setValue(name,age){
+        this.name=name
+        this.age=age
+    }
+    getValue(){
+        console.log(this.name,this.age)
+    }
 }
-catch (e){
-    // document.write("An error occured ",e.message,"<br>")
-    document.write(e)
+class Child extends Parent{
+    parentmethod(){
+        console.log("from parent method")
+    }
 }
-finally{
-    document.write("finally block")
- }
 
+// var obj=new Parent()
+// obj.setValue("abc",12)
+// obj.getValue()
 
-
+var c1= new Child()
+c1.parentmethod()
