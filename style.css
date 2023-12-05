@@ -1,0 +1,31 @@
+.row,.row1{
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+.box{
+    height: 20rem;
+    width: 10rem;
+    
+}
+#bg-color{
+    background-color: black;
+    
+}
+
+.btn{
+    background-color: red;
+
+}
+.btn2{
+    background-color: blue;
+
+}
+.btn3{
+    background-color: green;
+
+}
+
+.row1{
+    padding: 1rem;
+}

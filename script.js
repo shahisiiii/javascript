@@ -354,9 +354,25 @@
 // x=document.getElementsByClassName("c1")
 // Array.from(x).map(a=>a.style.color="red")
 
-function addData(){
-    x=document.querySelector("#id1").value    // queryselector is normaly used for js
-    y=document.querySelector("#id2").value
-    z=Number(x)+Number(y)
-    document.write(z)
+// function addData(){
+//     x=document.querySelector("#id1").value    // queryselector is normaly used for js
+//     y=document.querySelector("#id2").value
+//     z=Number(x)+Number(y)
+//     document.write(z)
+// }
+
+function changeColour(event){
+    ele=document.querySelector("#bg-color")
+    color=event.target.name
+    if(color=="red"){
+        ele.style.backgroundColor="red"
+        console.log(color)
+    }
+    else if(color=="blue"){
+        ele.style.backgroundColor="blue"
+    }
+
+    else{
+        ele.style.backgroundColor="green"
+    }
 }
